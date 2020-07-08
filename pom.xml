@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.subhashmeena.jdbc</groupId>
+  <artifactId>csv</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>GCSCSV</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.sourceforge.csvjdbc</groupId>
+  		<artifactId>csvjdbc</artifactId>
+  		<version>1.0.35</version>
+  	</dependency>
+  	<dependency>
+	  <groupId>com.google.cloud</groupId>
+	  <artifactId>google-cloud-nio</artifactId>
+	  <version>0.121.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>2.5</version>
+	</dependency>
+	
+  </dependencies>
+</project>
